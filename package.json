@@ -1,0 +1,25 @@
+{
+  "name": "nodeexplorers",
+  "version": "1.0.0",
+  "description": "A simple API/SocialMedia Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamMohit27/NodeExplorers.git"
+  },
+  "keywords": [
+    "Node",
+    "NodeExplorers",
+    "Social",
+    "Media"
+  ],
+  "author": "Mohit Srivastava",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iamMohit27/NodeExplorers/issues"
+  },
+  "homepage": "https://github.com/iamMohit27/NodeExplorers#readme"
+}
