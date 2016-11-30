@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const debug = require('debug')('NodeExplorers:AppJS');
 
 const index = require('./routes/index');
-const users = require('./routes/users');
+const api = require('./routes/api');
 
 const app = express();
 
@@ -46,7 +46,7 @@ app.use(require('node-sass-middleware')({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/api', api);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
