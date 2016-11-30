@@ -18,8 +18,8 @@ router.get('/colleges/:id', (req, res, next) => {
 
 
 // Users
-router.get('/users/:id', (req, res, next) => {
-  res.send('You Accessed, /api/user/:id');
+router.get('/users/', (req, res, next) => {
+  res.send('You Accessed, /api/users');
 });
 
 router.get('/users/:id', (req, res, next) => {
